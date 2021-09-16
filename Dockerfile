@@ -16,7 +16,7 @@ RUN pecl install redis
 RUN docker-php-ext-enable redis
 
 # Clean
-RUN apt autoremove --purge \
+RUN apt autoremove --purge -y \
     && apt clean
     
 # Create system user to run Composer and Artisan Commands
