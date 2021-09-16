@@ -1,8 +1,8 @@
 FROM php:7.4.16-fpm-buster
 
 # arguments in docker-compose file
-ARG user
-ARG uid
+ARG user=20021
+ARG uid=20022
 
 # Install Libraries
 RUN apt-get update \
