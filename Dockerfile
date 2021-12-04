@@ -1,4 +1,4 @@
-FROM php:7.4.16-fpm-buster
+FROM php:8.0.2-fpm-buster
 
 # arguments in docker-compose file
 ARG user=webapp
